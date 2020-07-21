@@ -1,0 +1,24 @@
+type Query {
+    available(input: AvailableInput): [Element!]
+}
+input AvailableInput {
+    elementID: ID!
+}
+
+interface Element {
+    payload: Payload!
+}
+
+type FixedElement implements Element {
+    payload: Payload!
+    value: String!
+}
+
+type NumberElement implements Element {
+    payload: Payload!
+    amount: String!
+}
+
+type Payload {
+    value: ID!
+}
