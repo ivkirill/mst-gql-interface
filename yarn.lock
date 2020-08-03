@@ -7667,10 +7667,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-mst-gql@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/mst-gql/-/mst-gql-0.12.0.tgz#7033d78cc620a3b90dd1ec6c6965c7afd0503494"
-  integrity sha512-exSnBDBKxEsdzkbgS2K2AsRpcZBBusNFS5MmdzEvS4UQlRRRUBmQTGSM6X6uIKsWA73B7LdXgS/PyFXV7Dqt7w==
+mst-gql@^0.12.4:
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/mst-gql/-/mst-gql-0.12.4.tgz#063b3edf51d125e3f2b7378163c63a388555c672"
+  integrity sha512-yc9T772BKlI9O3yyObIlK7oF1xyZdSgNBvvYbjcrfDG7LLCFZtdmuS63tJ4kfQ8va0lcmUe0v6G5yl85sM7oPg==
   dependencies:
     apollo "^2.27.0"
     arg "^4.1.1"
